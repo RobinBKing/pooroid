@@ -1,3 +1,11 @@
+*,
+*::before
+*::after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .corkBoard {
   background-image: url("../img/cork-board.jpg");
   width: 1200px;
@@ -11,4 +19,12 @@
   position: absolute;
   left: 33%;
   top: 30%;
+}
+
+.monkeys img {
+  width: 270px;
+  height: 270px;
+  position: absolute;
+  left: 37.75%;
+  top: 35%;
 }
