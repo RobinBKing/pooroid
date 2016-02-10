@@ -1,0 +1,14 @@
+.corkBoard {
+  background-image: url("../img/cork-board.jpg");
+  width: 1200px;
+  height: 1000px;
+  position: relative;
+}
+
+.polaroid img {
+  width: 400px;
+  height: auto;
+  position: absolute;
+  left: 33%;
+  top: 30%;
+}
